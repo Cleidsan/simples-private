@@ -1,0 +1,210 @@
+/* Configuraçao da pagina toda INICIO*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url(/img/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* Configuraçao da pagina toda FIM */
+
+/* Configuraçao CENTRAL INICIO */
+#pagina {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    font-family:'Courier New', Courier, monospace ;
+}
+.todos {
+    background-color: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.4);
+    float: left;
+}
+.espaço {
+    margin-top: 10px;
+    
+}
+/* Configuraçao CENTRAL FIM */
+
+/* Barra de Menu INICIO*/
+.menu {
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    border-radius: 2px;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+}
+b {
+    margin: 8px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+/* Barra de Menu INICIO*/
+
+/* Barra de Menu esquerda INICIO*/
+
+.menuesquerdo {
+    width: 79.4%;
+    height: 2000px;
+    float: left;
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    
+}
+.para1 {
+    color: rgb(7, 6, 6);
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+    padding: 11px;
+    border-radius: 20px;
+    background: rgba(146, 146, 146, 0.7);
+    float: none;
+
+}
+.ttlogo {
+    width: 500px;
+}
+/* Barra de Menu esquerda FIM*/
+
+/* Configuraçao de imagens INICIO INICIO*/
+.tsobre {
+    color: white;
+    height: 750px;
+    width: 350px;
+    background: rgba(146, 146, 146, 0.7);
+    margin-left: 40px;
+    float: left;
+    border-radius: 20px;
+    
+}
+.ht {
+    text-align: center;
+    color: black;
+}
+.loid1 {
+    margin-top: 18px;
+}
+.anya1 {
+    margin-top: 18px;
+}
+.yor1 {
+    margin-top: 18px;
+}
+.imgtd {
+    width: 250px;
+    margin-top: 10px;
+}
+.imgloid {
+    padding-left: 50px;
+    float: left;
+}
+.imganya {
+    height: 354px;
+    padding-left: 50px;
+    float: left;
+}
+.imgyor {
+    height: 354px;
+    padding-right: 50px;
+    float: right;
+}
+
+/*Paragrafos INICIO*/
+.para {
+    margin-top: 360px;
+    font-size: 19.8px;
+    color: black;
+    padding-left: 30px;
+    padding-right: 20px;
+    
+}
+/*Paragrafos INICIO*/
+
+/* Configuraçao de imagens INICIO FIM*/
+
+/* Barra de Menu Direito 1 INICIO*/
+.menudireito {
+    width: 20%;
+    margin-top: 8px;
+    height: 700px;
+    float: right;
+}
+.arec {
+    background-color: rgb(224, 180, 86);
+    opacity: 2.8;
+    border-radius: 10px;
+    width: 304px;
+    height: 35px;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font: bold;
+    line-height: 35px;
+    float: right;
+}
+.imgfilme {
+    width: 95%;
+    height: 600px;
+    padding-left: 8px;
+    float: left;
+}
+/* Barra de Menu Direito 1 FIM*/
+
+/* Barra de Menu direito 2 INICIO*/
+.menudireito2 {
+    width: 20%;
+    margin-top: px;
+    height: 1290px;
+    float: right;
+    
+}
+/* Barra de Menu Direito 2 FIM*/
+
+/* Rodape Inicio*/
+#subrp {
+    width: 1000px;
+    height: 433px;
+    margin-top: 800px;
+    padding-left: 115px;
+    float: none;
+}
+.sbrp {
+    border-radius: 20px;
+    float: none;
+}
+.rdp {
+    color: white;
+    width: 100%;
+    height: 120px;
+    margin-top: 10px;
+    float:left;
+}
+.rdp1 {
+    margin-top: 25px;
+    padding-left: 50px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+/* Rodape FIM*/
+
+/* Outros ANIMES */
+.animes {
+    width: 240px;
+    height: 92px;
+    padding-left: 35px;
+}

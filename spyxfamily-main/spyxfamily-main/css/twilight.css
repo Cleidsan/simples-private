@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* Menu Esquerdo */
+.menuesquerdo {
+    width: 79.4%;
+    height: 2020px;
+    float: left;
+}
+/* Foto Texto 1 */
+#imgloid1 {
+    width: 400px;
+    float: left;
+}
+.loid1 {
+    width: 350px;
+    height: 450px;
+    padding-left: 35px;
+    float: left;
+
+}
+.pgf1 {
+    margin-top: 80px;
+    
+}
+.pgf1 {
+    float: left;
+    width: 770px;
+    text-align: center;
+    height: 380px;
+    font-size: 22px;
+    border-radius: 20px;
+    padding-left: 15px;
+    background: rgba(146, 146, 146, 0.7);
+    color: rgb(0, 0, 0);
+}
+
+/* Foto Texto 2 */
+#imgloid2 {
+    width: 350px;
+    float: left;
+
+}
+.loid2 {
+    width: 350px;
+    height: 450px;
+    padding-right: 20px;
+    margin-top: 30px;
+    float: right;
+    
+}
+.text2 {
+    float: left;
+    width: 770px;
+    text-align: center;
+    height: 250px;
+    font-size: 22px;
+    margin-top: 190px;
+    border-radius: 20px;
+    padding-left: 15px;
+    background: rgba(146, 146, 146, 0.7);
+    color: rgb(0, 0, 0);
+    padding: 15px;
+}
+#pgf2 {
+    padding-left: 25px;
+}
+
+/* Foto Texto 3 */
+#imgloid3 {
+    width: 400px;
+    float: left;
+}
+.loid3 {
+    width: 350px;
+    height: 450px;
+    margin-top: 25px;
+    padding-left: 35px;
+    float: left;
+}
+.pgf3 {
+    margin-top: 160px;
+}
+.pgf3 {
+    float: left;
+    width: 770px;
+    text-align: center;
+    height: 300px;
+    font-size: 22px;
+    border-radius: 20px;
+    padding-left: 15px;
+    background: rgba(146, 146, 146, 0.7);
+    color: rgb(0, 0, 0);
+}
+/* Foto SubRodapé */
+.sbrp {
+    margin-top: 20px;
+    width: 1000px;
+    height: 480px;
+}
