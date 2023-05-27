@@ -1,0 +1,284 @@
+@font-face {
+    font-family: "Josefin Sans";
+    src: url(/assets/fonts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.img-logo {
+    width: 60%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-home {
+    width: 40%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0px 0px 25px 30px black;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-image: url(/assets/img/wp12103251.jpg);
+}
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 2px solid #ff0266;
+    display: flex;
+    justify-content: space-between;
+ }
+ nav ul {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 20pt;
+    padding-left: 30px;
+    list-style: none;
+    color: white;
+}
+
+nav .nav a {
+    color: #03dac6;
+    padding-bottom: 0.5rem;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    transition: all 0.7s ease;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bolder;
+    z-index: 3;
+}
+nav .nav a:hover {
+    border-bottom: 2px solid #ff0266;
+}
+nav .nav ul li:hover, nav .nav a:hover  {
+    color: #ff0266;
+    transition: all 0.3s ease-in-out;
+    transform: translate3d(0, -10px, 22px);
+}
+
+.header-h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 5vw;
+    padding-bottom: 0.5rem;
+    letter-spacing: 0.2rem;
+    color: #03dac6;
+    transition: all 0.7s ease;
+    z-index: 3;
+}
+
+.gif-fixo {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    gap: 2px;
+    border-bottom: 2px solid #ff0266;
+    justify-content: center;
+}
+
+.gif-gif-fixo {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.wrapp1 {
+    width: 100%;
+    height: 1000px;
+}
+.img-fixa1 {
+    background-image: url(/assets/img/fundo-1.jpg);
+    min-height: 600px;
+    background-attachment: fixed;
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.fundo-h1-wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.fundo-h1-wrap-meio {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    transition: 4s;
+    
+}
+.fundo-h1-wrap-meio:hover {
+    transition: 2s;
+    background-color: #000000b7;
+    
+}
+
+.header-h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 5vw;
+    padding-bottom: 0.5rem;
+    letter-spacing: 0.2rem;
+    color: rgb(255, 81, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.7s ease;
+    z-index: 3;
+}
+
+.header-h2:hover { 
+    transition: all 0.3s ease-in-out;
+    transform: translate3d(0, -10px, 22px);
+    color: #ff0266;
+}
+
+.subtitle1 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: black;
+}
+
+.subtitle1-gif-1 {
+    width: 22%;
+    height: 100%;
+}
+
+.subtitle1-fsd {
+    width: 88%;
+    height: 100%;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-color: #ff0266;
+}
+
+.wrapp2 {
+    width: 100%;
+    height: 1000px;
+}
+.img-fixa2 {
+    background-image: url(/assets/img/fundo-2.jpg);
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;   
+    background-size: 100% 100%;
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.subtitle2 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: black;
+}
+.wrapp3 {
+    width: 100%;
+    height: 1000px;
+}
+.img-fixa3 {
+    background-image: url(/assets/img/fundo-3.jpg);
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header-h1 {
+    animation: moveToLeft 2s infinite ease-in-out;
+    }
+
+    @keyframes moveToLeft {
+        0% {
+            transform: translateY(0px);
+            color: #03dac6;
+        }
+      50% {
+        transform: translateY(-50px);
+        color: #ff0266
+        }
+}
+
+
+.subtitle3 {
+    height: 400px;
+    background-color: black;
+}
+
+.h3:hover { 
+    transition: all 0.3s ease-in-out;
+    transform: translate3d(0, -10px, 22px);
+    color: #0228ff;
+}
+
+.button-baixar {
+    width: 8%;
+    height: 100%;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 15pt;
+}
+.button-baixar:hover {
+    background-color: rgb(217, 255, 0);
+    
+}
+.button-baixar a {
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.img-fixa4 {
+    background-image: url(/assets/img/fortnite-chapter-4-season-2-mega-attack-on-titan.jpg);
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
