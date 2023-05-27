@@ -1,0 +1,53 @@
+body {
+    background-image: url(https://pm1.narvii.com/6466/44b655d8357ac54d45cb19bc0ff33704af4fa936_hq.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 850px;
+    margin: auto;
+}
+.photo {
+    border-radius: 100px;  
+    border: 3px solid black;
+}
+#title1, .subtitle1, .posttitle1 {
+   color: black;
+}
+
+.posttitle1 {
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
+
+.post {
+    background: transparent;
+    padding: 15px;
+    border: 3px solid rgb(41, 38, 38);
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+.post:hover {
+    background: rgb(5, 5, 5);
+    color: white;
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.natsu1 {
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+
+.list_ende {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.list_ende li a {
+    color: blue;
+    text-decoration: none;
+}
